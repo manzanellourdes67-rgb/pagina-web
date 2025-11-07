@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: #ccd7df;
+  color: #e8e6d2;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background: #5f2072;
+  color: #d9d7c8;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.site-header h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.site-header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.site-header a {
+  color: #d9d7c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-header a:hover {
+  color: #c3bfa5;
+}
+
+/* HERO */
+.hero {
+  background:linear-gradient(135deg, #ccd7df, #ccd7df);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.16);
+  color: #f2f2e6;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Secciones */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.acerca {
+  height: 600px;
+  background: #2f34ae;
+}
+
+.servicios {
+  height: 500px;
+  background: #4d31c1;
+}
+
+.contacto {
+  height: 700px;
+  background: #6138ad;
+}
+
+/* Footer */
+.site-footer {
+  height: 130px;
+  background: #5f2072;
+  color: #d9d7c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
