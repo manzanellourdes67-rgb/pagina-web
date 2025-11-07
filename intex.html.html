@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manzanel Tobares Lourdes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", serif;
+      background: #ccd7df;
+      color: #e8e6d2;
+    }
+
+    /* HEADER */
+    .site-header {
+      background: #5f2072;
+      color: #d9d7c8;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+    }
+
+    .site-header h1 {
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .site-header ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .site-header a {
+      color: #d9d7c8;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .site-header a:hover {
+      color: #f5f2d0;
+    }
+
+    /* HERO (INICIO) */
+    .hero {
+      background: linear-gradient(135deg, #ccd7df, #ccd7df);
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #d9d7c8;
+      flex-direction: column;
+    }
+
+    .hero .overlay {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      border-radius: 8px;
+    }
+
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #f2f2e6;
+    }
+
+    /* SECCIONES */
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .acerca {
+      background: #2f34ae;
+    }
+
+    .servicios {
+      background: #4d31c1;
+    }
+
+    .contacto {
+      background: #6138ad;
+    }
+
+    h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      height: 130px;
+      background: #5f2072;
+      color: #d9d7c8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- ENCABEZADO -->
+  <header class="site-header">
+    <h1> Pagina web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca">Acerca de mí</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- INICIO -->
+  <section class="hero" id="inicio">
+    <div class="overlay">
+      <img src="https://i.postimg.cc/Bnf1hmj5/FB-IMG-1762483058377.jpg" alt="Foto de Lourdes">
+      <h2>Manzanel Tobares Lourdes Guadalupe</h2>
+      <p>Estudiante de la Tecnicatura Universitaria en Informática y Abogacía</p>
+    </div>
+  </section>
+
+  <!-- ACERCA DE MÍ -->
+  <section class="acerca" id="acerca">
+    <h3>Acerca de mí</h3>
+    <p>
+      Soy una persona responsable, con capacidad de aprendizaje y trabajo en equipo.
+      Actualmente curso la Tecnicatura Universitaria en Informática y la carrera de Abogacía.
+      Tengo mi propio emprendimiento, por lo cual tengo experiencia en atención al cliente y manejo de redes sociales.
+    </p>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <h3>Servicios y Habilidades</h3>
+    <p>
+      - Conocimientos en ventas <br>
+      - Manejo de herramientas informáticas <br>
+      - Resolución de problemas <br>
+      - Comunicación efectiva <br>
+      - Atención al cliente <br>
+      - Manejo de redes sociales
+    </p>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <h3>Contacto</h3>
+    <p>Email: <b>lourdesguadalupemanzanel@gmail.com</b></p>
+    <p>Teléfono: <b>+54 3804 360160</b></p>
+    <p>LinkedIn: 
+      <a href="#" style="color:#e8e6d2; text-decoration:underline;">linkedin.com/in/perfil</a>
+    </p>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <p>© 2025 - Manzanel Tobares Lourdes Guadalupe. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
